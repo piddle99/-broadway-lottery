@@ -18,10 +18,8 @@ const urls = [
   // "https://lottery.broadwaydirect.com/show/sweeney-todd-ny/",
   // "https://lottery.broadwaydirect.com/show/the-lion-king/",
   // "https://lottery.broadwaydirect.com/show/wicked/",
- //
-"https://lottery.broadwaydirect.com/show/tammy-faye-ny/",
- //
-"https://lottery.broadwaydirect.com/show/dbh-nyc/",
+ // "https://lottery.broadwaydirect.com/show/tammy-faye-ny/",
+ // "https://lottery.broadwaydirect.com/show/dbh-nyc/",
 ];
 
 urls.forEach((url) => {
