@@ -12,6 +12,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Install missing dependencies for Playwright
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libasound2 libicu67 libffi-dev libx11-xcb1
       - name: Install dependencies
         run: npm ci
       - name: Install Playwright Browsers
